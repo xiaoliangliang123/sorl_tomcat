@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataConfig>
+    <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/master" user="root" password="root" />
+    <document>
+        <entity name="sys_user" query="select * from sys_user" deltaQuery="select * from sys_user">
+            <field column="id" name="id" />
+	        <field column="username" name="username" />
+	        <field column="password" name="password" />
+           
+        </entity>
+    </document>
+</dataConfig>
+ 

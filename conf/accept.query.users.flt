@@ -1,0 +1,56 @@
+<#--
+/*
+ * ***************************************************************************
+ * File Description  : HUSMSystem's accept.task.view js
+ * File Version      : 1.0
+ * Legal Copyright   : Copyright(C) 1999-2018 Dalian Haixin Information Engineering Co., Ltd.
+ * Company Name      : Dalian Haixin Information Engineering Co., Ltd.
+ * Legal Trademark   :
+ * Original Filename : accept.task.view js
+ * Platform          : phone
+ * Product Version   : 1.0
+ * Product Name      : Heat Using Status Monitor System
+ * ***************************************************************************
+ */
+-->
+<!DOCTYPE html>
+<#assign base=request.contextPath />
+<#import "/spring.ftl" as spring/>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache,no-store,must-revalidate">
+    <meta http-equiv="expires" content="0">
+    <link type="text/css" rel="stylesheet" href="${base}/statics/assets/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="${base}/statics/css/common.css">
+    <link type="text/css" rel="stylesheet" href="${base}/statics/css/theme/default.css">
+    <link type="text/css" rel="stylesheet" href="https://res.wx.qq.com/open/libs/weui/1.1.2/weui-for-work.min.css">
+    <link type="text/css" rel="stylesheet" href="${base}/statics/assets/mescroll/mescroll.min.css">
+</head>
+<body class="default phone">
+<div class="outer">
+    <div class="header">
+        <h5 style="font-size:16px">待接受任务单一览</h5>
+    </div>
+    <div id="mescroll" class="mescroll inner">
+        <ul id="taskList" class="news-list"></ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="${base}/statics/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="${base}/statics/js/jquery.extends.js"></script>
+<script type="text/javascript" src="${base}/statics/js/common.js"></script>
+<script type="text/javascript" src="${base}/statics/assets/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="${base}/statics/js/AjaxUtils.js"></script>
+<script type="text/javascript" src="${base}/statics/assets/mescroll/mescroll.min.js"></script>
+<script type="text/javascript" src="${base}/statics/js/is.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+        alert("手机");
+    });
+</script>
+</body>
+</html>

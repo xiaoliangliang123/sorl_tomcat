@@ -1,0 +1,9 @@
+127.0.0.1 - - [07/Mar/2019:08:21:49 +0800] "GET /solr/index.html HTTP/1.1" 200 13613
+127.0.0.1 - - [07/Mar/2019:08:22:00 +0800] "GET /solr/img/ico/network-status-busy.png HTTP/1.1" 200 1423
+127.0.0.1 - - [07/Mar/2019:08:22:10 +0800] "GET /solr/index.html HTTP/1.1" 200 13613
+127.0.0.1 - - [07/Mar/2019:08:22:11 +0800] "GET /solr/img/favicon.ico?_=6.5.1 HTTP/1.1" 200 3262
+127.0.0.1 - - [07/Mar/2019:08:22:29 +0800] "GET /solr/index.html HTTP/1.1" 200 13613
+127.0.0.1 - - [07/Mar/2019:08:22:49 +0800] "GET /solr/index.html HTTP/1.1" 200 13613
+127.0.0.1 - - [07/Mar/2019:08:22:49 +0800] "GET /solr/img/ico/network-status.png HTTP/1.1" 200 1441
+127.0.0.1 - - [07/Mar/2019:08:22:50 +0800] "GET /solr/img/favicon.ico?_=6.5.1 HTTP/1.1" 200 3262
+127.0.0.1 - - [07/Mar/2019:08:23:50 +0800] "GET /solr/index.html HTTP/1.1" 200 13613
